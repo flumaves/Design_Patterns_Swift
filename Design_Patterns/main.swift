@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+// MARK: Chain of Responsibility
+ChainOfResponsibilityDemo().test()
