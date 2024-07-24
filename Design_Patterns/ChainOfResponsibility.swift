@@ -94,7 +94,7 @@ class FerrariStore: Handler {
     }
 }
 
-class Customer {
+private class Customer {
     
     let carShoppingList: [String] = [kFerrari, kMercedes, kFerrari, kRollsRoyce, kMercedes, kLamborghini]
     
@@ -122,7 +122,7 @@ class ChainOfResponsibilityDemo {
         mercedesStore.setNext(rollsRoyceStore).setNext(ferrariStore)
     }
     
-    func test() {
+    func demo() {
         
         print("Chain: \(kMercedes) -> \(kRollsRoyce) -> \(kFerrari)\n")
         

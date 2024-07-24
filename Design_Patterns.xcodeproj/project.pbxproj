@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		9B86F2EA2C49674F0011B5F6 /* ChainOfResponsibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86F2E92C49674F0011B5F6 /* ChainOfResponsibility.swift */; };
+		9B86F2EC2C4EA46E0011B5F6 /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86F2EB2C4EA46E0011B5F6 /* FactoryMethod.swift */; };
+		9B86F2EE2C512E0D0011B5F6 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86F2ED2C512E0D0011B5F6 /* AbstractFactory.swift */; };
+		9B86F2F02C5134D80011B5F6 /* FakeUIKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B86F2EF2C5134D80011B5F6 /* FakeUIKit.swift */; };
 		9BD982102B26BBB600329C6A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD9820F2B26BBB600329C6A /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		9B86F2E92C49674F0011B5F6 /* ChainOfResponsibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainOfResponsibility.swift; sourceTree = "<group>"; };
+		9B86F2EB2C4EA46E0011B5F6 /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		9B86F2ED2C512E0D0011B5F6 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		9B86F2EF2C5134D80011B5F6 /* FakeUIKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeUIKit.swift; sourceTree = "<group>"; };
 		9BD9820C2B26BBB600329C6A /* Design_Patterns */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Design_Patterns; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BD9820F2B26BBB600329C6A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				9BD9820F2B26BBB600329C6A /* main.swift */,
+				9B86F2EB2C4EA46E0011B5F6 /* FactoryMethod.swift */,
+				9B86F2ED2C512E0D0011B5F6 /* AbstractFactory.swift */,
 				9B86F2E92C49674F0011B5F6 /* ChainOfResponsibility.swift */,
+				9B86F2EF2C5134D80011B5F6 /* FakeUIKit.swift */,
 			);
 			path = Design_Patterns;
 			sourceTree = "<group>";
@@ -123,7 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B86F2EE2C512E0D0011B5F6 /* AbstractFactory.swift in Sources */,
+				9B86F2EC2C4EA46E0011B5F6 /* FactoryMethod.swift in Sources */,
 				9B86F2EA2C49674F0011B5F6 /* ChainOfResponsibility.swift in Sources */,
+				9B86F2F02C5134D80011B5F6 /* FakeUIKit.swift in Sources */,
 				9BD982102B26BBB600329C6A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

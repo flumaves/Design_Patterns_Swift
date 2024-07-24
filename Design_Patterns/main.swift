@@ -7,5 +7,12 @@
 
 import Foundation
 
+// MARK: Factory Method
+FactoryMethodDemo().demo()
+
+// MARK: Abastact Factory
+AbstractFactoryDemo().demo()
+
 // MARK: Chain of Responsibility
-ChainOfResponsibilityDemo().test()
+ChainOfResponsibilityDemo().demo()
+
